@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background: linear-gradient(45deg, #190361 0%, #B0F 100%);
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  margin-top: 7rem;
+}
+
+.hide {
+  display: none;
+}
+
+/*TELA 1*/
+
+main {
+  background-color: white;
+
+  width: 42.4rem;
+  
+  margin: auto;
+  padding: 6.4rem;
+
+  border-radius: 5px;
+
+  box-shadow: 0 15px 50px;
+  
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.tela1 h1 {
+  color: #34355B;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  margin: auto 0 1.4rem auto;
+
+  display: block;
+  animation: none;
+}
+
+.tela1 p {
+  color: #34355B;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  margin-bottom: 2.6rem;
+}
+
+
+
+.tela1 input:hover {
+  animation: treme 0.1s;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+}
+
+@keyframes treme {
+  0% {margin-left: 0;}
+  25% {margin-left: 5px;}
+  50% {margin-left: 0;}
+  75% {margin-left: -5px;}
+  100% {margin-left: 0;}
+}
+
+/*TELA 2*/
+
+.tela2 input {
+  width: 30rem;
+  margin-bottom: 2rem;
+}
+
+.tela2 h2 {
+  margin-bottom: 2rem;
+  color: #34355B;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#sorte {
+  background-color: #E4EDF1;
+  box-shadow: .2rem .2rem .2rem 0px rgba(85, 85, 85, 0.50);
+
+  width: 29rem;
+  height: 10rem;
+
+  padding: 1rem;
+  margin-bottom: 6rem;
+}
+
+#sorte p {
+  color: #000;
+  text-align: center;
+  font-family: Dancing Script;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.tela2 input:hover {
+  cursor: default;
+}
+
+ button {
+  display: flex;
+  padding: 16px;
+  align-items: flex-start;
+  gap: 10px;
+
+  border: none;
+  border-radius: 4px;
+  background: #FF9500;
+
+  color: white;
+  margin: auto;
+
+  margin-top: 3.5rem;
+
+  color: #FFF;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  transition: 0.3s;
+}
+
+.tela2 button:hover {
+  background: #d07a00;
+  cursor: pointer;
+}
